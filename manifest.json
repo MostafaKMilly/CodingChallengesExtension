@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Coding Challenges New Tab",
+  "description": "Customize your new tab page with Coding Challenges theme.",
+  "version": "1.0",
+  "permissions": ["activeTab", "https://api.github.com/"],
+  "action": {},
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
